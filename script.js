@@ -23,7 +23,7 @@ function getCharSet() {
   if (specialCharacters === true) charSet += '!@#$%^&*()'
   if (numericCharacters === true) charSet += '0123456789'
   if (upperCaseCharacters === true) charSet += 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
-  if (lowerCaseCharacters === true) charSet += 'abcdefghijklmnopqrstuv'
+  if (lowerCaseCharacters === true) charSet += 'abcdefghijklmnopqrstuvwxyz'
 
   return charSet
 
